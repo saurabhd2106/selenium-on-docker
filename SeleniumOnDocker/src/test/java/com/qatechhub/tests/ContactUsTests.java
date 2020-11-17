@@ -23,11 +23,11 @@ public class ContactUsTests extends BaseTests {
 
 		contactUsPage.fillupContactForm(contactDetails);
 
-		String expectedTitle = "You have successfully filled in the form!";
+		String expectedMessage = "You have successfully filled in the form!";
 
-		String actualTitle = contactUsPage.getSuccessMessage();
+		String actualMessage = contactUsPage.getSuccessMessage();
 
-		Assert.assertEquals(actualTitle, expectedTitle);
+		Assert.assertEquals(actualMessage, expectedMessage);
 	}
 
 }
