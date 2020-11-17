@@ -9,6 +9,8 @@ public class ContactUsTests extends BaseTests {
 
 	@Test
 	public void verifyContactUsForm() throws Exception {
+		
+		System.out.println(System.getProperty("os.name"));
 
 		ContactDetails contactDetails = new ContactDetails();
 
