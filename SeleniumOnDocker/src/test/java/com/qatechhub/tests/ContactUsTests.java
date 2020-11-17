@@ -26,6 +26,8 @@ public class ContactUsTests extends BaseTests {
 		String expectedMessage = "You have successfully filled in the form!";
 
 		String actualMessage = contactUsPage.getSuccessMessage();
+		
+		System.out.println("Message - "+ actualMessage);
 
 		Assert.assertEquals(actualMessage, expectedMessage);
 	}
